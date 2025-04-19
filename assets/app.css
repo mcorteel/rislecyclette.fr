@@ -1,0 +1,20 @@
+[data-bs-theme=dark] .if_light {
+    display: none;
+}
+[data-bs-theme=light] .if_dark {
+    display: none;
+}
+.navbar-brand img {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+[data-bs-theme=dark] .navbar-brand img {
+    filter: invert(1);
+}
+
+.img-card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+}
