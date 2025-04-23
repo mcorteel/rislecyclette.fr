@@ -21,6 +21,7 @@ $events = array(
         'time' => '12h-15h',
         'title' => 'Fête du vélo à Brionne',
         'description' => 'Animations dans le parc de Lorraine : musique, spectacle, atelier d\'auto-réparation',
+        'image' => 'https://nuage.rislecyclette.fr/index.php/s/pfE93pPQYjyZLwD/download',
     ),
     array(
         'date' => '2025-06-08 10:00:00',
@@ -33,6 +34,7 @@ $events = array(
         'time' => '12h-17h',
         'title' => 'Fête du vélo à la Ressourcerie de Menneval',
         'description' => 'Food trucks, parcours vélo pour enfants et adultes, atelier d\'auto-réparation, spectacle et plus encore !',
+        'image' => 'https://nuage.rislecyclette.fr/index.php/s/i9nn75iNwGWHk36/download',
     ),
     array(
         'date' => '2025-06-07 11:00:00',
