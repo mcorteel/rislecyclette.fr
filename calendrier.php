@@ -1,7 +1,5 @@
 <?php
 include_once('includes/header.php');
-include_once('includes/db.php');
-$db = new DB();
 ?>
 
 <h2>Calendrier</h2>
