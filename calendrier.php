@@ -1,10 +1,15 @@
-<?php include_once('includes/header.php') ?>
+<?php
+include_once('includes/header.php');
+include_once('includes/db.php');
+$db = new DB();
+?>
 
 <h2>Calendrier</h2>
 
 <p>Voici les prochaines dates d'atelier, de réunion ou d'animation à retenir.</p>
 
 <?php
+
 $events = array(
     array(
         'date' => '2025-06-28 14:00:00',
@@ -15,7 +20,7 @@ $events = array(
     ),
     array(
         'date' => '2025-06-08 12:00:00',
-        'time' => '12h-17h',
+        'time' => '12h-15h',
         'title' => 'Fête du vélo à Brionne',
         'description' => 'Animations dans le parc de Lorraine : musique, spectacle, atelier d\'auto-réparation',
     ),
@@ -44,6 +49,13 @@ $events = array(
         'title' => 'Atelier de réparation à la ressourcerie de Menneval',
         'description' => 'Venez remettre votre vélo en état avec l\'aide de nos bénévoles.',
         'image' => 'https://nuage.rislecyclette.fr/index.php/s/i9nn75iNwGWHk36/download',
+    ),
+    array(
+        'date' => '2025-05-17 14:00:00',
+        'time' => '14h-18h',
+        'title' => 'Après-midi démontage aux Nouvelles coordonnées',
+        'description' => 'Remettons de l\'ordre dans notre stock de vélos en démontant et en triant ! Ouvert à tou·tes, même sans aucune connaissance en mécanique. C\'est justement l\'occasion de découvrir de nouvelles choses sur le fonctionnement d\'un vélo.',
+        'image' => 'https://nuage.rislecyclette.fr/index.php/s/kEHT5BsWmwywLnD/download',
     ),
     array(
         'date' => '2025-04-26 14:00:00',
